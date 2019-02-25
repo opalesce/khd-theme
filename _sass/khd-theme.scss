@@ -6,15 +6,15 @@ body {
   padding:0px 0 20px 0px;
   margin: 0px;
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#f0e7d5;
+  color:#434547; //color of font
   font-weight: normal;
-  background: #252525;
+  background: #e8e0ff; //color of background
   background-attachment: fixed !important;
   background: linear_gradient(#2a2a29, #1c1c1c);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#e8e8e8;
+  color:#86dff9; //header color
   margin:0 0 10px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
