@@ -6,8 +6,8 @@ body {
   padding:0px 0 20px 0px;
   margin: 0px;
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#434547; //color of font
-  font-weight: normal;
+  color:#ded7e3; //color of font
+  font-weight: lighter;
 
   background-color: #322e3d;
   background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png");
@@ -15,8 +15,11 @@ body {
   background: linear_gradient(#2a2a29, #1c1c1c);
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
-  color:#86dff9; //header color
+  color:#86dff9; //header font color, deep sky blue
+  background-color: #767676; //grey
   margin:0 0 10px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -24,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+  background-color: #767676 //grey
 }
 
 h1, h2, h3 {
@@ -163,7 +167,7 @@ dt {
   height: 60px;
   width: 100%;
   position: fixed;
-  background: url(../images/nav-bg.gif) #353535;
+  background-color: #767676;
   border-bottom: 4px solid #434343;
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
 
@@ -191,7 +195,7 @@ dt {
         border-radius: 2px;
         box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 3px 7px rgba(0,0,0,.7);
 
-        background-color: #93bd20;
+        background-color: #11a4ff;
         padding: 10px 12px;
         margin-top: 6px;
         line-height:14px;
@@ -201,8 +205,8 @@ dt {
 
         &:hover {
           background: linear_gradient(#749619, #527f0e);
-          background-color: #659e10;
-          border: 1px solid #527f0e;
+          background-color: #d87b08;
+          border: 1px solid #1986d3;
           box-shadow: inset 0px 1px 1px rgba(0,0,0,.2), 0px 1px 0px rgba(0,0,0,.0);
         }
       }
@@ -247,7 +251,7 @@ section {
     }
 
     p {
-      color: #d7cfbe;
+      color: #c9bed7;
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       font-size: 18px;
