@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {%- include head.html -%} <!--from minima -->
 
-{% seo %}
+  {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
@@ -18,6 +19,9 @@
 
   </head>
   <body>
+
+    {%- include header.html -%} <!--from minima -->
+
       <div id="header">
         <nav>
           <li class="fork"><a href="{{ site.github.repository_url }}">Go to my github</a></li>
@@ -29,6 +33,14 @@
           {% endif %}
         </nav>
       </div><!-- end header -->
+
+    <main class="page-content" aria-label="Content"> <!--from minima -->
+      <div class="wrapper"> <!--from minima -->
+        {{ content }} <!--from minima -->
+      </div> <!--from minima -->
+    </main> <!--from minima -->
+
+
 
     <div class="wrapper">
 
@@ -57,5 +69,8 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+
+    {%- include footer.html -%} <!--from minima -->
   </body>
 </html>
